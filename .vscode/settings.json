@@ -1,0 +1,26 @@
+{
+    // Editor settings
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    // GitHub Copilot settings
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Use conventional commit message format."
+        },
+        {
+            "text": "Then, please include detailed changes for each file."
+        }
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "javascript": true,
+        "python": true,
+        "cpp": false
+    },
+    // Other settings
+    "chat.promptFiles": true
+}
